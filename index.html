@@ -8,9 +8,22 @@
 <style>
 	@media (prefers-color-scheme: dark){
 		body {
-			background:#000
+			background:#282828;
+      color: #ebdbb2;
 		}
 	}
+  header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+  }
 	body{
 		margin:1em auto;
 		max-width:40em;
@@ -28,9 +41,15 @@
 </style>
 <article>
   <header>
+    <h1>sourpit</h1>
+    <ul>
+        <li>blog</li>
+        <li>bump!</li>
+        <li>about</li>
+    </ul>
+  </header>
     <h1>This is my project collection</h1>
     <aside>fun stuff that I learned.</aside>
-  </header>
   <ul>
     <li> <a title="random rant" href="https://sourpit.github.io/blog/">muh blog</a>
     <li> <a title="fun stuff" href="https://github.com/sourpit/learn-c">my C journey</a>
